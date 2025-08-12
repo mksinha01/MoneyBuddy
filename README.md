@@ -6,16 +6,18 @@ MoneyBuddy is a financial management application designed specifically for colle
 ## Features
 
 ### Core Functionality
-- **Allowance Management**: Set up and track periodic allowances
-- **Expense Tracking**: Monitor where your money goes with categorized spending
+- **UPI Integration**: Link your UPI ID for secure and quick payments
+- **Phone Number Verification**: Secure login using phone number and OTP
+- **Balance Privacy**: Toggle balance visibility for enhanced privacy
 - **Bill Splitting**: Easily split expenses with roommates and friends
 - **Money Requests**: Request money from contacts with just a few taps
 - **QR Code Payments**: Scan to pay or receive money quickly
 
-### Financial Wellness Tools
+### Student-Focused Features
+- **Savings Jar**: Create dedicated savings for specific goals
 - **Peer Pressure Shield**: Protection against impulsive spending due to social pressure
 - **Impulse Blocker**: Tools to prevent emotional spending decisions
-- **Financial AI Chatbot**: Get personalized financial advice and answers to money questions
+- **Financial AI Chatbot**: Get personalized financial advice tailored for students
 
 ## Technology Stack
 - **Frontend**: React Native with Expo
@@ -79,9 +81,11 @@ MoneyBuddy/
 
 ### Onboarding
 1. Welcome screen with app introduction
-2. College selection to personalize experience
-3. Allowance setup for budget planning
-4. Sign-up bonus explanation
+2. Phone number verification with OTP
+3. UPI ID linking for payments
+4. College selection to personalize experience
+5. Allowance setup for budget planning
+6. Sign-up bonus explanation
 
 ### Main App
 1. Home screen with financial dashboard

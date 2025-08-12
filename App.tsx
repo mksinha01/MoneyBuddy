@@ -8,6 +8,8 @@ import { RootStackParamList } from './src/navigation/types';
 
 // Onboarding Screens
 import OnboardingScreen from './src/screens/onboarding/OnboardingScreen';
+import PhoneVerificationScreen from './src/screens/onboarding/PhoneVerificationScreen';
+import UpiVerificationScreen from './src/screens/onboarding/UpiVerificationScreen';
 import CollegeSelectorScreen from './src/screens/onboarding/CollegeSelectorScreen';
 import AllowanceSetupScreen from './src/screens/onboarding/AllowanceSetupScreen';
 import SignupBonusScreen from './src/screens/onboarding/SignupBonusScreen';
@@ -50,6 +52,8 @@ function AppContent() {
           // Onboarding Flow
           <>
             <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+            <Stack.Screen name="PhoneVerification" component={PhoneVerificationScreen} />
+            <Stack.Screen name="UpiVerification" component={UpiVerificationScreen} />
             <Stack.Screen name="CollegeSelector" component={CollegeSelectorScreen} />
             <Stack.Screen name="SetAllowance" component={AllowanceSetupScreen} />
             <Stack.Screen 
